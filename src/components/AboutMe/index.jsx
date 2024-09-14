@@ -3,7 +3,7 @@ import { Container } from "./styles";
 const AboutMe = () => (
   <Container>
     <div className="container">
-      <h2>Sobre mim</h2>
+      <h2 className="section-title">Sobre mim</h2>
       <p>
         Sou Kayky Dion, um entusiasta de tecnologia e apaixonado por games,
         atualmente cursando bacharelado em Engenharia de Software. Com 20 anos,

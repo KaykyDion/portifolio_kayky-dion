@@ -21,21 +21,4 @@ export const InfoContainer = styled.div`
     background-clip: text;
     color: transparent;
   }
-
-  button {
-    border: none;
-    font-weight: 900;
-    color: ${({ theme }) => theme.background};
-    background: linear-gradient(to right, #4beb9e, #ff9147);
-    border-radius: 25px;
-    height: 50px;
-    font-size: 18px;
-    cursor: pointer;
-    width: 200px;
-    transition: 0.3s;
-
-    &:hover {
-      filter: brightness(0.7);
-    }
-  }
 `;

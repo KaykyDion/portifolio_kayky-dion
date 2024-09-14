@@ -12,12 +12,12 @@ const Header = () => (
       </h1>
       <ul>
         <li>
-          <a href="#">
+          <a target="_blank" href="https://www.linkedin.com/in/kaykydion/">
             <img src={linkedin} alt="Link Linkedin" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a target="_blank" href="https://github.com/KaykyDion">
             <img src={github} alt="Link GitHub" />
           </a>
         </li>

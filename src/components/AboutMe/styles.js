@@ -11,11 +11,6 @@ export const Container = styled.section`
     gap: 20px;
   }
 
-  h2 {
-    font-size: 32px;
-    font-weight: 200;
-  }
-
   p {
     font-weight: 300;
     line-height: 32px;
