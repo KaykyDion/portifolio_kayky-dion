@@ -21,10 +21,18 @@ export default function Projects() {
                   <b>Tecnologias:</b> {project.technologies.join(", ")}
                 </p>
                 <div className="links">
-                  <a target="_blank" href={project.github}>
+                  <a
+                    title={`Clique aqui para acessar o código dow projeto ${project.name}`}
+                    target="_blank"
+                    href={project.github}
+                  >
                     <img src={github} alt="Ícone github" /> GitHub
                   </a>
-                  <a target="_blank" href={project.deploy}>
+                  <a
+                    title={`Clique aqui para acessar o projeto ${project.name}`}
+                    target="_blank"
+                    href={project.deploy}
+                  >
                     <img src={vercel} alt="Ícone vercel" /> Projeto
                   </a>
                 </div>
