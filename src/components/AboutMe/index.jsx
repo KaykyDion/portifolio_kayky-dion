@@ -11,12 +11,9 @@ const AboutMe = () => (
         principal em React.
       </p>
       <p>
-        Minha stack principal inclui HTML, CSS, Javascript, React, Redux,
-        Typescript, Bootstrap, styled-components e Sass. Além disso, possuo
-        conhecimentos básicos em VueJS, jQuery e Less. Tenho uma forte
-        habilidade em criar interfaces de usuário eficientes e visualmente
-        atraentes, sempre buscando as melhores práticas de desenvolvimento e
-        otimização de performance.
+        Tenho uma forte habilidade em criar interfaces de usuário eficientes e
+        visualmente atraentes, sempre buscando as melhores práticas de
+        desenvolvimento e otimização de performance.
       </p>
       <p>
         Estou constantemente buscando aprender e me atualizar sobre as novas

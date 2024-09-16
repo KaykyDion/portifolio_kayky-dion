@@ -1,4 +1,5 @@
 import avatar from "../../assets/foto-perfil.png";
+import curriculum from "../../assets/CV_kayky-dion.pdf";
 import { GradientButton } from "../../styles";
 import { Container, InfoContainer } from "./styles";
 
@@ -10,7 +11,9 @@ const Hero = () => (
       <h3>
         Desenvolvedor <br /> Front-End React
       </h3>
-      <GradientButton>Download CV</GradientButton>
+      <GradientButton href={curriculum} download>
+        Download CV
+      </GradientButton>
     </InfoContainer>
   </Container>
 );

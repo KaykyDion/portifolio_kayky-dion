@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export const GradientButton = styled.button`
+export const GradientButton = styled.a`
   border: none;
   font-weight: 900;
   color: ${({ theme }) => theme.background};
@@ -43,7 +43,9 @@ export const GradientButton = styled.button`
   cursor: pointer;
   width: 200px;
   transition: 0.3s;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover {
     filter: brightness(0.7);
   }
