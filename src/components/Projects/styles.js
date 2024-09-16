@@ -15,7 +15,7 @@ export const Container = styled.section`
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
-    @media (max-width: 767px) {
+    @media (max-width: 1023px) {
       flex-direction: column;
       justify-content: center;
       align-items: center;

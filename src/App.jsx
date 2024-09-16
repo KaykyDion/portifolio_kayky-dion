@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import MyStack from "./components/MyStack";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
+      <MyStack />
       <Projects />
       <Footer />
     </ThemeProvider>

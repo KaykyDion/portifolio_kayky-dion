@@ -22,11 +22,11 @@ export default function Projects() {
                 </p>
                 <div className="links">
                   <a
-                    title={`Clique aqui para acessar o código dow projeto ${project.name}`}
+                    title={`Clique aqui para acessar o código do projeto ${project.name}`}
                     target="_blank"
                     href={project.github}
                   >
-                    <img src={github} alt="Ícone github" /> GitHub
+                    <img src={github} alt="Ícone github" /> Código
                   </a>
                   <a
                     title={`Clique aqui para acessar o projeto ${project.name}`}

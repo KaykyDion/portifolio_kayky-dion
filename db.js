@@ -1,3 +1,22 @@
+import reactIcon from "./src/assets/technologies-icons/React.svg";
+import htmlIcon from "./src/assets/technologies-icons/HTML.svg";
+import jsIcon from "./src/assets/technologies-icons/JS.svg";
+import tsIcon from "./src/assets/technologies-icons/TS.svg";
+import reduxIcon from "./src/assets/technologies-icons/Redux.svg";
+import gitIcon from "./src/assets/technologies-icons/Git.svg";
+import jqueryIcon from "./src/assets/technologies-icons/jquery.svg";
+import vueIcon from "./src/assets/technologies-icons/VueJS.svg";
+import zustandIcon from "./src/assets/technologies-icons/Zustand.svg";
+import reactRouterIcon from "./src/assets/technologies-icons/reactrouter.svg";
+
+import cssIcon from "./src/assets/technologies-icons/CSS.svg";
+import sassIcon from "./src/assets/technologies-icons/Sass.svg";
+import bootstrapIcon from "./src/assets/technologies-icons/bootstrap.svg";
+import styledComponentsIcon from "./src/assets/technologies-icons/styledcomponents.png";
+
+import jestIcon from "./src/assets/technologies-icons/Jest.svg";
+import cypressIcon from "./src/assets/technologies-icons/Cypress.svg";
+
 import devflix from "./src/assets/projects-images/devflix.png";
 import efood from "./src/assets/projects-images/efood.png";
 import gestorDeEstoques from "./src/assets/projects-images/gestor-de-estoques.png";
@@ -9,12 +28,74 @@ const db = {
   technologies: {
     development: [
       {
+        name: "HTML",
+        image: htmlIcon,
+      },
+      {
+        name: "JavaScript",
+        image: jsIcon,
+      },
+      {
+        name: "TypeScript",
+        image: tsIcon,
+      },
+      {
         name: "React",
-        image: "imageurl",
+        image: reactIcon,
+      },
+      {
+        name: "Redux",
+        image: reduxIcon,
+      },
+      {
+        name: "GIT",
+        image: gitIcon,
+      },
+      {
+        name: "jquery",
+        image: jqueryIcon,
+      },
+      {
+        name: "VueJS",
+        image: vueIcon,
+      },
+      {
+        name: "Zustand",
+        image: zustandIcon,
+      },
+      {
+        name: "react-router-dom",
+        image: reactRouterIcon,
       },
     ],
-    stylization: [],
-    tests: [],
+    stylization: [
+      {
+        name: "CSS",
+        image: cssIcon,
+      },
+      {
+        name: "Sass",
+        image: sassIcon,
+      },
+      {
+        name: "Bootstrap",
+        image: bootstrapIcon,
+      },
+      {
+        name: "styled-components",
+        image: styledComponentsIcon,
+      },
+    ],
+    tests: [
+      {
+        name: "Jest",
+        image: jestIcon,
+      },
+      {
+        name: "Cypress",
+        image: cypressIcon,
+      },
+    ],
   },
   projects: [
     {
