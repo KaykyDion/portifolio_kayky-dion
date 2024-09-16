@@ -4,6 +4,18 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+
+  @media (max-width: 1023px) {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -20,5 +32,13 @@ export const InfoContainer = styled.div`
     background: linear-gradient(to right, #4beb9e, #ff9147);
     background-clip: text;
     color: transparent;
+
+    @media (max-width: 1023px) {
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
   }
 `;
