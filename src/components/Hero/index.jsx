@@ -9,7 +9,7 @@ const Hero = () => (
     <InfoContainer>
       <h2>Kayky Dion</h2>
       <h3>
-        Desenvolvedor <br /> Front-End React
+        Desenvolvedor <br /> Full-Stack <br /> React, Node.js & Python
       </h3>
       <GradientButton href={curriculum} download>
         Download CV

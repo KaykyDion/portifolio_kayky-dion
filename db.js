@@ -71,16 +71,16 @@ const db = {
         image: reactRouterIcon,
       },
       {
+        name: "styled-components",
+        image: styledComponentsIcon,
+      },
+      {
         name: "Sass",
         image: sassIcon,
       },
       {
         name: "Bootstrap",
         image: bootstrapIcon,
-      },
-      {
-        name: "styled-components",
-        image: styledComponentsIcon,
       },
     ],
     languages: [

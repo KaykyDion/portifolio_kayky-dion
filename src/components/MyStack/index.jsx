@@ -22,7 +22,7 @@ export default function MyStack() {
             <h3>Linguagens</h3>
             <ul>
               {db.technologies.languages.map((tech) => (
-                <li title={tech.name} key={tech.name}>
+                <li key={tech.name}>
                   <img src={tech.image} alt={tech.name} />
                   <TechName>{tech.name}</TechName>
                 </li>
@@ -33,7 +33,7 @@ export default function MyStack() {
             <h3>Testes</h3>
             <ul>
               {db.technologies.tests.map((tech) => (
-                <li title={tech.name} key={tech.name}>
+                <li key={tech.name}>
                   <img src={tech.image} alt={tech.name} />
                   <TechName>{tech.name}</TechName>
                 </li>
@@ -45,7 +45,7 @@ export default function MyStack() {
           <h3>Back-End</h3>
           <ul>
             {db.technologies.backEnd.map((tech) => (
-              <li title={tech.name} key={tech.name}>
+              <li key={tech.name}>
                 <img src={tech.image} alt={tech.name} />
                 <TechName>{tech.name}</TechName>
               </li>

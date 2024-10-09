@@ -5,21 +5,24 @@ const AboutMe = () => (
     <div className="container">
       <h2 className="section-title">Sobre mim</h2>
       <p>
-        Sou Kayky Dion, um entusiasta de tecnologia e apaixonado por games,
-        atualmente cursando bacharelado em Engenharia de Software. Com 20 anos,
-        já acumulo uma sólida experiência como programador front-end, com foco
-        principal em React.
+        Sou Kayky Dion, um entusiasta de tecnologia, apaixonado por games e
+        programação, atualmente cursando bacharelado em Engenharia de Software.
+        Com 20 anos, já acumulo uma sólida experiência como desenvolvedor
+        full-stack, com foco principal em React no front-end e também
+        trabalhando com backend utilizando Node.js, ExpressJS e Python.
       </p>
       <p>
         Tenho uma forte habilidade em criar interfaces de usuário eficientes e
         visualmente atraentes, sempre buscando as melhores práticas de
-        desenvolvimento e otimização de performance.
+        desenvolvimento e otimização de performance. Também possuo experiência
+        na criação de APIs e implementação de autenticação usando JWT.
       </p>
       <p>
-        Estou constantemente buscando aprender e me atualizar sobre as novas
-        tendências e tecnologias no mundo do desenvolvimento web. Se você está à
-        procura de um desenvolvedor front-end dedicado e com paixão por entregar
-        soluções inovadoras, vamos nos conectar!
+        Estou sempre em busca de novos desafios e oportunidades para expandir
+        meus conhecimentos em desenvolvimento web, aplicando tecnologias
+        modernas para criar soluções inovadoras e eficazes. Explore meus
+        projetos para conhecer um pouco mais do meu trabalho e fique à vontade
+        para entrar em contato!
       </p>
     </div>
   </Container>
