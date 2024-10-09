@@ -1,21 +1,28 @@
 import reactIcon from "./src/assets/technologies-icons/React.svg";
 import htmlIcon from "./src/assets/technologies-icons/HTML.svg";
-import jsIcon from "./src/assets/technologies-icons/JS.svg";
-import tsIcon from "./src/assets/technologies-icons/TS.svg";
 import reduxIcon from "./src/assets/technologies-icons/Redux.svg";
 import gitIcon from "./src/assets/technologies-icons/Git.svg";
 import jqueryIcon from "./src/assets/technologies-icons/jquery.svg";
 import vueIcon from "./src/assets/technologies-icons/VueJS.svg";
 import zustandIcon from "./src/assets/technologies-icons/Zustand.svg";
 import reactRouterIcon from "./src/assets/technologies-icons/reactrouter.svg";
-
 import cssIcon from "./src/assets/technologies-icons/CSS.svg";
 import sassIcon from "./src/assets/technologies-icons/Sass.svg";
 import bootstrapIcon from "./src/assets/technologies-icons/bootstrap.svg";
 import styledComponentsIcon from "./src/assets/technologies-icons/styledcomponents.png";
 
+import jsIcon from "./src/assets/technologies-icons/JS.svg";
+import tsIcon from "./src/assets/technologies-icons/TS.svg";
+import pyIcon from "./src/assets/technologies-icons/python.svg";
+
 import jestIcon from "./src/assets/technologies-icons/Jest.svg";
 import cypressIcon from "./src/assets/technologies-icons/Cypress.svg";
+
+import nodeIcon from "./src/assets/technologies-icons/nodejs.svg";
+import expressIcon from "./src/assets/technologies-icons/expressjs.svg";
+import postgreIcon from "./src/assets/technologies-icons/postgresql.svg";
+import jwtIcon from "./src/assets/technologies-icons/jwt.svg";
+import prismaIcon from "./src/assets/technologies-icons/prisma.svg";
 
 import devflix from "./src/assets/projects-images/devflix.png";
 import efood from "./src/assets/projects-images/efood.png";
@@ -26,18 +33,14 @@ import listaDeContatos from "./src/assets/projects-images/lista-de-contatos.png"
 
 const db = {
   technologies: {
-    development: [
+    frontEnd: [
       {
         name: "HTML",
         image: htmlIcon,
       },
       {
-        name: "JavaScript",
-        image: jsIcon,
-      },
-      {
-        name: "TypeScript",
-        image: tsIcon,
+        name: "CSS",
+        image: cssIcon,
       },
       {
         name: "React",
@@ -67,12 +70,6 @@ const db = {
         name: "react-router-dom",
         image: reactRouterIcon,
       },
-    ],
-    stylization: [
-      {
-        name: "CSS",
-        image: cssIcon,
-      },
       {
         name: "Sass",
         image: sassIcon,
@@ -86,6 +83,20 @@ const db = {
         image: styledComponentsIcon,
       },
     ],
+    languages: [
+      {
+        name: "JavaScript",
+        image: jsIcon,
+      },
+      {
+        name: "TypeScript",
+        image: tsIcon,
+      },
+      {
+        name: "Python",
+        image: pyIcon,
+      },
+    ],
     tests: [
       {
         name: "Jest",
@@ -94,6 +105,28 @@ const db = {
       {
         name: "Cypress",
         image: cypressIcon,
+      },
+    ],
+    backEnd: [
+      {
+        name: "Node.js",
+        image: nodeIcon,
+      },
+      {
+        name: "Express.js",
+        image: expressIcon,
+      },
+      {
+        name: "PostgreSQL",
+        image: postgreIcon,
+      },
+      {
+        name: "JWT",
+        image: jwtIcon,
+      },
+      {
+        name: "Prisma",
+        image: prismaIcon,
       },
     ],
   },

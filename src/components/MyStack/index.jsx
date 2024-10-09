@@ -1,5 +1,5 @@
 import db from "../../../db";
-import { Container, Techs, TechsContainer } from "./styles";
+import { Container, TechName, Techs, TechsContainer } from "./styles";
 
 export default function MyStack() {
   return (
@@ -7,31 +7,47 @@ export default function MyStack() {
       <h2 className="section-title">Minha Stack</h2>
       <TechsContainer>
         <Techs>
-          <h3>Desenvolvimento</h3>
+          <h3>Front-End</h3>
           <ul>
-            {db.technologies.development.map((tech) => (
-              <li title={tech.name} key={tech.name}>
+            {db.technologies.frontEnd.map((tech) => (
+              <li key={tech.name}>
                 <img src={tech.image} alt={tech.name} />
+                <TechName>{tech.name}</TechName>
               </li>
             ))}
           </ul>
         </Techs>
+        <div>
+          <Techs>
+            <h3>Linguagens</h3>
+            <ul>
+              {db.technologies.languages.map((tech) => (
+                <li title={tech.name} key={tech.name}>
+                  <img src={tech.image} alt={tech.name} />
+                  <TechName>{tech.name}</TechName>
+                </li>
+              ))}
+            </ul>
+          </Techs>
+          <Techs>
+            <h3>Testes</h3>
+            <ul>
+              {db.technologies.tests.map((tech) => (
+                <li title={tech.name} key={tech.name}>
+                  <img src={tech.image} alt={tech.name} />
+                  <TechName>{tech.name}</TechName>
+                </li>
+              ))}
+            </ul>
+          </Techs>
+        </div>
         <Techs>
-          <h3>Estilização</h3>
+          <h3>Back-End</h3>
           <ul>
-            {db.technologies.stylization.map((tech) => (
+            {db.technologies.backEnd.map((tech) => (
               <li title={tech.name} key={tech.name}>
                 <img src={tech.image} alt={tech.name} />
-              </li>
-            ))}
-          </ul>
-        </Techs>
-        <Techs>
-          <h3>Testes</h3>
-          <ul>
-            {db.technologies.tests.map((tech) => (
-              <li title={tech.name} key={tech.name}>
-                <img src={tech.image} alt={tech.name} />
+                <TechName>{tech.name}</TechName>
               </li>
             ))}
           </ul>

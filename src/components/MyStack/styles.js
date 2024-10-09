@@ -7,12 +7,10 @@ export const Container = styled.section`
 export const TechsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 
   @media (max-width: 1023px) {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
   }
 `;
 
@@ -23,6 +21,7 @@ export const Techs = styled.div`
   border-radius: 20px;
   text-align: center;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
 
   h3 {
     font-weight: 500;
@@ -47,7 +46,28 @@ export const Techs = styled.div`
 
       &:hover {
         filter: drop-shadow(10px 6px 4px rgba(0, 0, 0, 0.7));
+
+        span {
+          opacity: 1;
+          visibility: visible;
+        }
       }
     }
   }
+`;
+
+export const TechName = styled.span`
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: -48px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  user-select: none;
 `;
