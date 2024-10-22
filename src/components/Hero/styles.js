@@ -5,6 +5,12 @@ export const Container = styled.section`
   justify-content: space-between;
   padding: 20px 0;
 
+  img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+  }
+
   @media (max-width: 1023px) {
     justify-content: center;
     flex-direction: column;

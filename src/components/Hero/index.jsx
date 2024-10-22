@@ -1,4 +1,4 @@
-import avatar from "../../assets/foto-perfil.png";
+import avatar from "../../assets/foto-perfil.jpg";
 import curriculum from "../../assets/CV_kayky-dion.pdf";
 import { GradientButton } from "../../styles";
 import { Container, InfoContainer } from "./styles";
