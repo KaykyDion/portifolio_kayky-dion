@@ -1,15 +1,15 @@
 import reactIcon from "./src/assets/technologies-icons/React.svg";
 import htmlIcon from "./src/assets/technologies-icons/HTML.svg";
 import reduxIcon from "./src/assets/technologies-icons/Redux.svg";
-import gitIcon from "./src/assets/technologies-icons/Git.svg";
 import jqueryIcon from "./src/assets/technologies-icons/jquery.svg";
 import vueIcon from "./src/assets/technologies-icons/VueJS.svg";
 import zustandIcon from "./src/assets/technologies-icons/Zustand.svg";
-import reactRouterIcon from "./src/assets/technologies-icons/reactrouter.svg";
 import cssIcon from "./src/assets/technologies-icons/CSS.svg";
 import sassIcon from "./src/assets/technologies-icons/Sass.svg";
 import bootstrapIcon from "./src/assets/technologies-icons/bootstrap.svg";
 import styledComponentsIcon from "./src/assets/technologies-icons/styledcomponents.png";
+import nextJsIcon from "./src/assets/technologies-icons/next-js.svg";
+import tailwindIcon from "./src/assets/technologies-icons/tailwindcss.svg";
 
 import jsIcon from "./src/assets/technologies-icons/JS.svg";
 import tsIcon from "./src/assets/technologies-icons/TS.svg";
@@ -29,6 +29,7 @@ import efood from "./src/assets/projects-images/efood.png";
 import gestorDeEstoques from "./src/assets/projects-images/gestor-de-estoques.png";
 import burguerBoss from "./src/assets/projects-images/burguer-boss.png";
 import eplay from "./src/assets/projects-images/eplay.png";
+import cloudy from "./src/assets/projects-images/cloudy.png";
 import listaDeContatos from "./src/assets/projects-images/lista-de-contatos.png";
 
 const db = {
@@ -47,12 +48,16 @@ const db = {
         image: reactIcon,
       },
       {
-        name: "Redux",
-        image: reduxIcon,
+        name: "Next.js",
+        image: nextJsIcon,
       },
       {
-        name: "GIT",
-        image: gitIcon,
+        name: "TailwindCSS",
+        image: tailwindIcon,
+      },
+      {
+        name: "Redux",
+        image: reduxIcon,
       },
       {
         name: "jquery",
@@ -65,10 +70,6 @@ const db = {
       {
         name: "Zustand",
         image: zustandIcon,
-      },
-      {
-        name: "react-router-dom",
-        image: reactRouterIcon,
       },
       {
         name: "styled-components",
@@ -132,6 +133,25 @@ const db = {
   },
   projects: [
     {
+      name: "Cloudy",
+      image: cloudy,
+      theme: "Rede social",
+      technologies: [
+        "Node.js",
+        "Typescript",
+        "Express.js",
+        "PrismaORM",
+        "PostgreSQL",
+        "Bcrypt",
+        "JWT",
+        "React",
+        "RadixUI",
+        "Zuastand",
+      ],
+      deploy: "https://cloudy-front-end.vercel.app/",
+      github: "https://github.com/KaykyDion/Cloudy-api",
+    },
+    {
       name: "DevFlix",
       image: devflix,
       theme: "Catálogo de filmes",
@@ -188,20 +208,6 @@ const db = {
       ],
       deploy: "https://eplay-one.vercel.app/",
       github: "https://github.com/KaykyDion/eplay",
-    },
-    {
-      name: "Lista de contatos",
-      image: listaDeContatos,
-      theme: "Agenda de contatos",
-      technologies: [
-        "React",
-        "Styled-components",
-        "Redux",
-        "react-router-dom",
-        "Typescript",
-      ],
-      deploy: "https://lista-de-contatos-react-nu.vercel.app/",
-      github: "https://github.com/KaykyDion/lista-de-contatos-react",
     },
   ],
 };

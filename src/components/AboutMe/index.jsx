@@ -8,8 +8,8 @@ const AboutMe = () => (
         Sou Kayky Dion, um entusiasta de tecnologia, apaixonado por games e
         programação, atualmente cursando bacharelado em Engenharia de Software.
         Com 20 anos, já acumulo uma sólida experiência como desenvolvedor
-        full-stack, com foco principal em React no front-end e também
-        trabalhando com backend utilizando Node.js, ExpressJS e Python.
+        full-stack, utilizando tecnologias como React, Next.js, Node.js,
+        Express.js e Python.
       </p>
       <p>
         Tenho uma forte habilidade em criar interfaces de usuário eficientes e
